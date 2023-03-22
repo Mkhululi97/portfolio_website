@@ -112,6 +112,10 @@ ul {
   justify-content: center;
   gap: 20px;
 }
+.ul-header {
+  margin-top: 25px;
+  font-size: 1.8rem;
+}
 ion-icon {
   font-size: 2.5rem;
   color: #f8f9fa;
@@ -140,7 +144,7 @@ a:visited.btn-cv {
 .heading-secondary {
   font-size: 2.4rem;
 }
-.skills .heading-tertiary {
+.heading-tertiary {
   font-size: 1.8rem;
   margin-bottom: 4px;
   text-transform: uppercase;
@@ -163,6 +167,18 @@ a:visited.btn-cv {
   line-height: 1.5;
   letter-spacing: 0.2px;
 }
+.projects-container {
+  margin-top: 0;
+}
+.projects .heading-tertiary {
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+.project1,
+.project2,
+.project3 {
+  margin-top: 0;
+}
 a:link.view-project,
 a:link.view-code {
   text-transform: uppercase;
@@ -170,7 +186,11 @@ a:link.view-code {
   font-size: 1.6rem;
   border-bottom: 2px solid #f8f9fa;
 }
-
+/* ==== FOOTER SECTION ==== */
+.footer {
+  background-color: #212529;
+  padding: 30px;
+}
 @media (min-width: 31.28em/*~ 700px*/) {
   .heading-primary {
     font-size: 3.2rem;
@@ -178,6 +198,9 @@ a:link.view-code {
   .header {
     display: flex;
     justify-content: space-between;
+  }
+  .ul-header {
+    margin-top: 0;
   }
   .hero-image {
     float: right;
@@ -197,6 +220,7 @@ a:link.view-code {
   .projects-container {
     column-gap: 26px;
   }
+  /* =================================== */
 }
 @media (min-width: 62em /* ~992px */) {
   .heading-primary {
@@ -216,7 +240,7 @@ a:link.view-code {
   .skills ion-icon {
     font-size: 3.2rem;
   }
-  .skills .heading-tertiary {
+  .heading-tertiary {
     font-size: 3.2rem;
     font-weight: 400;
   }

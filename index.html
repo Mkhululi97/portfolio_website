@@ -13,22 +13,14 @@
         <div class="my-name">
           <a href="#">mkhululimtshali</a>
         </div>
-        <ul>
-          <li>
-            <a href="https://github.com/Mkhululi97/" target="_blank"
-              ><ion-icon name="logo-github"></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/mkhululi-mtshali-bb8920116/"
-              target="_blank"
-              ><ion-icon name="logo-linkedin"></ion-icon
-            ></a>
-          </li>
+        <ul class="ul-header">
+          <li><a href="#home"></a>home</li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#footer"></a>footer</li>
         </ul>
       </nav>
-      <div class="hero">
+      <div id="home" class="hero">
         <img class="hero-image" src="images/intro-img.jpg" alt="" />
         <div class="hero-text">
           <h1 class="heading-primary">
@@ -53,7 +45,7 @@
           >
         </div>
       </div>
-      <div class="skills clearfix">
+      <div id="skills" class="skills clearfix">
         <h2 class="heading-secondary">Skills</h2>
         <div class="skills-container">
           <div class="skill1">
@@ -88,6 +80,7 @@
       </div>
       <div id="projects" class="projects">
         <h2 class="heading-secondary">Projects</h2>
+        <h3 class="heading-tertiary">FRONTEND</h3>
         <div class="projects-container">
           <div class="project1">
             <img
@@ -179,8 +172,25 @@
             </div>
           </div>
         </div>
+        <!-- <h3 class="heading-tertiary">BACKEND</h3> -->
       </div>
     </main>
+    <footer id="footer" class="footer">
+      <ul class="ul-footer">
+        <li>
+          <a href="https://github.com/Mkhululi97/" target="_blank"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/mkhululi-mtshali-bb8920116/"
+            target="_blank"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+        </li>
+      </ul>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
